@@ -18,7 +18,7 @@ import java.util.stream.Stream;
  * 1. Print all the invoices for the customers residing in a particular city
  * 2. Get the list of emails of all the customers residing in a particular city
  * 3. Get the total amount of all the invoices for a customer, likewise do for all the customers
- * and print those customer email whose invoice total is > 10k
+ * and print those custoemr email whose invoice total is > 10k
  * @author Shalini
  *
  */

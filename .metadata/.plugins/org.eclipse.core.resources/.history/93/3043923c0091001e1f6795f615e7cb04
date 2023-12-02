@@ -7,21 +7,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 //https://www.digitalocean.com/community/tutorials/java-8-stream
-
-/**
- * Task
- * 
- * Create an Invoice class -> invno, date, email, amount, city
- * 
- * Create a list of Invoice objects
- * 
- * 1. Print all the invoices for the customers residing in a particular city
- * 2. Get the list of emails of all the customers residing in a particular city
- * 3. Get the total amount of all the invoices for a customer, likewise do for all the customers
- * and print those customer email whose invoice total is > 10k
- * @author Shalini
- *
- */
 public class CollectionDemo {
 
 	public static void main(String[] args) {
