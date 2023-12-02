@@ -1,0 +1,25 @@
+package com.lambda;
+
+
+class PaymentImpl implements Payment{
+	@Override
+	public void pay() {
+		System.out.println("paying... logic");
+
+	}
+}
+public class Demo {
+
+	public static void main(String[] args) {
+		/**
+		 * PaymentImpl => to provide the implementation of the pay()
+		 */
+		Payment ob = new PaymentImpl();
+		ob.pay()
+		// anonymous inner classes?
+		
+		
+
+	}
+
+}

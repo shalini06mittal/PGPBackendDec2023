@@ -1,0 +1,15 @@
+package com.lambda;
+/** 
+ * functional interfaces
+ * 1. they can have ONLY ONE ABSTRACT METHOD
+ * 2. They can have more than 1 default or static methods => FYI
+ * 3. Annotate the interface with @FunctionalInterface
+ */
+@FunctionalInterface
+public interface Payment {
+	public void pay();
+//	public void call();
+	public default void notification() {
+		System.out.println("called notoification");
+	}
+}

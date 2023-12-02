@@ -1,0 +1,11 @@
+package com.lambda;
+
+public class StorageDemo {
+
+	public static void main(String[] args) {
+		// (paramaters) -> {} 
+		Storage ob = 
+
+	}
+
+}

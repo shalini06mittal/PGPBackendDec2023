@@ -1,0 +1,12 @@
+package com.lambda;
+/** 
+ * functional interfaces
+ * 1. they can have ONLY ONE ABSTRACT METHOD
+ * @author Shalini
+ *
+ */
+public interface Payment {
+
+	public void pay();
+	//public void notification();
+}

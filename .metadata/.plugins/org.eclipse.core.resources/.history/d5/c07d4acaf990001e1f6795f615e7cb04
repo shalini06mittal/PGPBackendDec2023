@@ -1,0 +1,6 @@
+package com.lambda;
+
+public interface Storage {
+
+	public void storeInFile(String data, String filename);
+}

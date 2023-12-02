@@ -1,0 +1,44 @@
+package com.lambda;
+
+
+abstract class PaymentImpl implements Payment{
+	@Override
+	public void pay() {
+		System.out.println("paying... logic");
+
+	}
+}
+public class Demo {
+
+	public static void main(String[] args) {
+		/**
+		 * PaymentImpl => to provide the implementation of the pay()
+		 */
+//		Payment ob = new PaymentImpl();
+//		ob.pay();
+		// anonymous inner classes?
+		// a class that implements the Payment interface and provides the implementation of pay()
+		// shortcut => new ctrl + <spacebar>
+//		 Payment ob1 = new  Payment() {
+//			@Override
+//			public void pay() {
+//				System.out.println("paying... logic from anonymous inner class");
+//			}
+//		};
+		// lambda expressions => Functional interfaces
+		/*
+		 * 1. input => parameters
+		 * 2. output => return
+		 * 3. body => BL
+		 */
+		// providing implementation of the pay()
+		Payment ob1 = () -> {
+			System.out.println("Lambda expression for pay");
+			System.out.println("asjkdhadk");
+		};
+		
+		
+
+	}
+
+}

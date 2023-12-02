@@ -1,0 +1,6 @@
+package com.lambda;
+
+public interface Payment {
+
+	public void pay();
+}

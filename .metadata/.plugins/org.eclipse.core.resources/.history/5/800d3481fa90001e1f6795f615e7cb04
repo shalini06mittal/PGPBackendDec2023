@@ -1,0 +1,20 @@
+package com.lambda;
+
+public class StorageDemo {
+
+	public static void main(String[] args) {
+		// (paramaters) -> {} 
+		Storage ob = new Storage() {
+			
+			@Override
+			public void storeInFile(String data, String filename) {
+				// TODO Auto-generated method stub
+				
+			}
+		}; 
+		
+		Storage obj = (data, filename) -> System.out.print("lambda used");
+
+	}
+
+}

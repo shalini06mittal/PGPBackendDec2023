@@ -1,0 +1,18 @@
+package com.lambda;
+
+
+class PaymentImpl implements Payment{
+	@Override
+	public void pay() {
+		System.out.println("paying... logic");
+
+	}
+}
+public class Demo {
+
+	public static void main(String[] args) {
+		Payment ob = new PaymentImpl();
+
+	}
+
+}

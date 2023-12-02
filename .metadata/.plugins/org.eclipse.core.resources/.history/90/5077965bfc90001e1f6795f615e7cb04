@@ -1,0 +1,20 @@
+package com.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionDemo {
+
+	public static void main(String[] args) {
+		
+		List<Integer> nos = new ArrayList<Integer>();
+		nos.add(10);
+		nos.add(7);
+		nos.add(5);
+		nos.add(90);
+		nos.add(3);
+		nos.add(1);
+
+	}
+
+}
