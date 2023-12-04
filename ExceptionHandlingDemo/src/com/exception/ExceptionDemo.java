@@ -1,5 +1,8 @@
 package com.exception;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 /**
  * Exception handling
@@ -11,9 +14,15 @@ import java.util.Scanner;
  */
 public class ExceptionDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		Calculator ob = new Calculator();
+		
+		InputStreamReader reader = new InputStreamReader(System.in);
+	
+			reader.read();
+		
+		Integer.parseInt("");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a no");
 		int n1 = sc.nextInt();

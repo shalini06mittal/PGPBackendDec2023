@@ -1,7 +1,7 @@
 package com.exception;
 
 /**
- * finally is a block that is exwcuted irrespectibe if the try block
+ * finally is a block that is executed irrespectibe if the try block
  * throws an exception or not
  * It is used to release or close the resources or provide any clean up code
  * @author Shalini
